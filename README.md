@@ -1,7 +1,22 @@
 # Blogging Platform API
-Projeto de Backend do site Roadmap.sh - Blogging Platform API
+Roadmap.sh Website Backend Project - Blogging Platform API
 
-# Requirements
+## Running the Project
+```bash
+# Install dependencies  
+npm install  
+
+# Create the database and apply migrations  
+npx prisma migrate dev  
+
+# Start the project  
+npm run dev
+```
+
+## .env
+Create a .env file with the necessary configurations.  
+
+## Requirements
 You should create a RESTful API for a personal blogging platform. The API should allow users to perform the following operations:
 - Create a new blog post
 - Update an existing blog post
